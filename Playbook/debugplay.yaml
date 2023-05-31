@@ -1,7 +1,7 @@
 
-- name: playbook for debug
-    hosts: all
-    tasks:
+ - name: playbook for debug
+  hosts: all
+  tasks:
     - name: print hello world
       debug:
-        msg: "Hello World! Welcome to IBN Technologies"
+        msg: "Hello World! Welcome to Cloudblitz"
