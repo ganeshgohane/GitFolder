@@ -1,0 +1,9 @@
+
+  - name: playbook for debug
+    hosts: all
+    vars:
+      URL: www.IBN Technologies.com
+    tasks:
+        - name: print hello world
+          debug:
+            msg: "Please visit {{ URL }}"
