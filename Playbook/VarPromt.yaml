@@ -8,6 +8,6 @@
        prompt: "www.CloudIBN.com"
        private: false
   tasks:
-        - name: print hello world
-          debug:
+       - name: print hello world
+         debug:
             msg: "Please visit {{ URL }}
