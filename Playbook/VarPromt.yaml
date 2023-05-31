@@ -2,12 +2,12 @@
 - name: playbook for prompt
   hosts: all
   vars: 
-     URL: "www.IBNTechnologies.com"
-  vars-prompt:
-     - name: URL
-       prompt: "www.CloudIBN.com"
-       private: false
-  tasks:
-       - name: print hello world
-         debug:
-            msg: "Please visit {{ URL }}
+   URL: "www.IBNTechnologies.com"
+  vars_prompt:
+  - name: URL
+    prompt: "www.CloudIBN.com"
+    private: false
+    tasks:
+    - name: print hello world
+      debug:
+        msg: "Please visit {{ URL }}"
