@@ -1,6 +1,6 @@
 
- - name: playbook for debug
-   hosts: all
+  - name: playbook for debug
+    hosts: all
     vars:
       URL: www.IBN Technologies.com
     tasks:
