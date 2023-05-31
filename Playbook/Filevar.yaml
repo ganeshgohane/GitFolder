@@ -1,0 +1,17 @@
+
+ - name: playbook for debug
+   hosts: all
+   vars_files:
+        - ./varFile
+   tasks:
+        - name: print hello world
+          debug:
+            msg: "Please visit {{ URL }}"
+        - name: print hello world
+          debug:
+            msg: "Please visit {{ URL }}"
+        - name: print hello world
+          debug:
+            msg: "Please visit {{ URL }}"
+          vars:
+              URL: local.IBN Technologies.com
