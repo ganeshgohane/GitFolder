@@ -1,5 +1,5 @@
 
-- name: playbook for debug
+  - name: playbook for debug
     hosts: all
     tasks:
     - name: print hello world
